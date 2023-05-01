@@ -5,7 +5,7 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
-
+puts "🐕 Seeding data..."
 # Admin users
 Admin.create(first_name: "Admin", surname: "User", email: "admin@example.com", password: "password_digest")
 
@@ -21,7 +21,7 @@ ReportStatus.create(name: "Resolved")
 ReportStatus.create(name: "Rejected")
 
 # Users
-User.create(first_name: "Dan", surname: "Njuguna", email: "dan@gmail.com", password: "password")
+User.create(first_name: "Collins", surname: "Chirchir", email: "collinskchirchir@gmail.com", password: "password")
 User.create(first_name: "Jay", surname: "Felix", email: "jay@gmail.com", password: "password")
 
 # Reports
@@ -67,3 +67,5 @@ Report.create(
   user_id: 2, 
   report_status_id: 4, 
   report_type_id: 2)
+
+puts "✅ Done seeding!"
