@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: ireporter_render_production
-  username: ireporter_render
-  password: <%= ENV["IREPORTER_RENDER_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
