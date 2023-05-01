@@ -15,7 +15,7 @@ import Swal from 'sweetalert2'
 // };
 const navigation = [
   { name: "Home", href: '/', current: false },
-  { name: "Public Reports", href: '/reports', current: false },
+  { name: "Public Reports", href: '/publicreports', current: false },
   { name: "About us", href: '/about-us', current: false },
   { name: "Admin", href: '/adminlogin', current: false }
 
