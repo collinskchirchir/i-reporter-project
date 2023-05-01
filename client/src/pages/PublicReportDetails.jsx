@@ -6,7 +6,7 @@ import ReportDetailsHeader from '../components/ReportDetailsHeader';
 
 
 function PublicReportDetails() {
-  const back_url = "/reports"
+  const back_url = "/publicreports"
 
   const { reportId }  = useParams()
 
