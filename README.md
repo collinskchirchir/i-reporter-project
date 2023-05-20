@@ -6,11 +6,7 @@ Ireport is an application designed to facilitate communication between citizens 
 
 ## Setup and Installation
 
-1. ***Clone the repository:*** Open a terminal window and navigate to the directory where you want to download the application. Use the following command to clone the repository:
-
-```javascript 
-    git clone git@github.com:DANNJUGUNA/ireport.git
-```
+1. ***Clone the repository:*** Open a terminal window and navigate to the directory where you want to download the application.
 
 2. ***Install dependencies:*** Navigate to the project directory and install the dependencies for both the backend (Ruby on Rails) and frontend (ReactJS).
 cd to the backend and frontend on separate terminals respectively.
